@@ -1,0 +1,9 @@
+## Configuration Apache
+web:
+   #restart: always
+   image: alang/django
+   ports:
+      - "80:80"
+   volumes:
+      - /var/www/django/src:/usr/django/app
+
